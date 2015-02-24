@@ -1,0 +1,54 @@
+MVC notes
+Base class: Model, View, Controller
+Each item inherits objects from these three
+
+Model: "Data Layer - Holds all of the data
+	data = record object---has a variety of keys such as [ {name: "Bob", age: "23"}...]
+		almost always a list
+
+	Almost always called a Data Structure - "Where you keep your stuff"
+			Aka
+			Dict
+			Object
+			Hashmap
+			JSON (javascript object notation) - same as dictionary for most part
+
+View: Presentation Layer
+	Templates
+	ListView
+	Detail View
+	Settings View
+	HTML**
+
+Controller: Orchestration Layer
+	switch
+	Request**
+	/books/fiction/scifi   <---everything after address bar domain, controller directs
+	These are called ROUTES
+		Routes = list of URLs
+	Django has all URLS in a file called URLS.py
+
+
+UML (Universal ) - though universal might as well be "User"
+	Diagram
+	Sequence
+
+Typing on computer --> browser/Client
+							<--> REQUESTS GO HERE
+									<--> Web Server 
+												<-->Apache, MSIIS, NGINX run on server
+													Django/Python
+													<-->Router URLS.py  |HTML|
+														<-->Controller
+															<-->Model or View
+											<-----send back to Web Server
+						<-----------send to client
+			<---render to computer
+
+AJAX - Asyncronis JavasScript A (?) XML (or JSON)
+This sends all data from CMV to the device/computer to do all of the work
+Agile ---also talks about this process
+
+Rendering = takes tags, img, css, etc ....?
+
+DOM = Document Object Model - This turns everything into objects to be displayed
