@@ -34,8 +34,9 @@ print '-'*75
 hero_name = raw_input("What is your teacher/player's name?: ")
 hero = dc.Player(hero_name, 7, 7, 7, 0)
 os.system('cls')
-hero.description()
 
+hero.description()
+pause = raw_input("Press any button to continue...")
 # Run function to choose teacher subject to modify attribute values
 hero.begin(hero)
 
