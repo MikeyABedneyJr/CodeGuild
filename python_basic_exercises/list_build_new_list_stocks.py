@@ -17,7 +17,7 @@ appl = []
 msft = []
 
 for index in test_data:
-  print index, "          ", index[1]
+  
   if index[1] == "APPL":
     appl.append(index)
   if index[1] == "MSFT":
