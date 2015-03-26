@@ -33,7 +33,7 @@ while run:
 		AddUserNum = raw_input("What is this person's phone number?: ")
 		phone_book.update({AddUserName: {'Name' : AddUserName, 'Number' : AddUserNum}})
 		current_entries()
-
+		
 	if (choice == "3"):
 		print "You've chosen to modify an entry..."
 		NameMod = raw_input("Who do you want to change?: ")

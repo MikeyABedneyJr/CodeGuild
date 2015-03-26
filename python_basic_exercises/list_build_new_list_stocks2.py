@@ -25,9 +25,7 @@ for index in test_data:
 
   #If stock is IN stocks dictionary, add the entry
   if index[1] in stocks:
-  # TODO: FIX THIS FINAL PART!!!
-    # new_values = [index[0], index[2]]
-    # stocks.update(new_values)
+    new_values = [index[0], index[2]]
+    stocks.update(new_values)
 
-  
 print stocks
